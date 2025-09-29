@@ -25,7 +25,7 @@ export const Header = () => {
         </Box>
         <IconButton size="large" aria-label="cart">
           <Badge
-            badgeContent={0}
+            badgeContent={1}
             color="primary"
             anchorOrigin={{
               vertical: "bottom",
