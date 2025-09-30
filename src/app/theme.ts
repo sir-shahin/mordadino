@@ -16,10 +16,13 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          borderRadius: "12px",
+          borderRadius: "50px",
+          borderWidth: 2,
+          paddingTop: 12,
+          paddingBottom: 12,
         },
         containedPrimary: {
-          background: "linear-gradient(90deg, #F79327 0%, #FF4400 100%)",
+          background: "linear-gradient(90deg, #FCAE6A 0%, #FF7416 100%)",
         },
         sizeLarge: ({ theme }) => ({
           [theme.breakpoints.down("sm")]: {

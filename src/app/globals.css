@@ -11,7 +11,7 @@
 }
 @font-face {
   font-family: "ISX";
-  src: url("/assets/fonts/isx-medium.ttf") format("truetype");
+  src: url("./assets/fonts/isx-medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
