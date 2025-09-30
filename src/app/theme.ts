@@ -24,6 +24,10 @@ const theme = createTheme({
         containedPrimary: {
           background: "linear-gradient(90deg, #FCAE6A 0%, #FF7416 100%)",
         },
+        textPrimary: {
+          background: "linear-gradient(90deg, #FB902F15 0%, #F7396F20 100%)",
+          color: "#292929"
+        },
         sizeLarge: ({ theme }) => ({
           [theme.breakpoints.down("sm")]: {
             fontSize: "1.1rem",
