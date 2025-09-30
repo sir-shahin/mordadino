@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "@/providers";
 import NextTopLoader from "nextjs-toploader";
+import { Header } from "@/app/components";
 
 export const metadata: Metadata = {
   title: "MORDADINO | مردادینو",
@@ -19,7 +20,7 @@ export default function RootLayout({
       <body suppressHydrationWarning>
         <Providers>
           <NextTopLoader color={primaryColor} showSpinner={false} />
-          {/* <Header /> */}
+          <Header />
 
           {children}
         </Providers>
