@@ -3,7 +3,7 @@ import React from "react";
 import { Launch } from "@mui/icons-material";
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
 
-import { MainContainer, Search } from "@/app/components";
+import { DynamicText, MainContainer, Search } from "@/app/components";
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
           </Typography>
           {/* search component in home */}
           <Search />
-
+          <DynamicText />
           <Box mx={"auto"}>
             <Button variant="outlined" color="primary" size="large" startIcon={<Launch sx={{ ml: 2.5 }} />}>
               رفتن به فروشگاه مردادینو
