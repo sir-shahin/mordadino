@@ -8,7 +8,7 @@ const FileUploaderBtn = () => {
   return (
     <Button
       size="large"
-      sx={{ pl: 3 }}
+      sx={{ pl: 3, width: { xs: "71vw", sm: "auto" } }}
       startIcon={
         <Avatar sx={{ bgcolor: "transparent", height: 20, width: 20, ml: 1.8 }} src="">
           <CameraLogo />
