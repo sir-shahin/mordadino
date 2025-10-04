@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ArrowBack } from "@mui/icons-material";
-import { Button, IconButton, InputAdornment, TextField, Typography } from "@mui/material";
+import { Button, InputAdornment, TextField } from "@mui/material";
 
 import FileUploaderBtn from "./fileUploader";
 
